@@ -14,8 +14,8 @@ from aiogram.client.default import DefaultBotProperties
 BOT_TOKEN = "8395537898:AAECE1LFhXi0LrDeREVoMJfwLaUw0oniUvc"
 ADMIN_ID = 5938341230  # Твой цифровой Telegram ID
 CHANNEL_ID = "@pozorkharkiv"  # Username канала ИЛИ его цифровой ID
-USERS_FILE = "/killosedraggfdxg/users.txt"  # Файл, где будут храниться ID пользователей
-POSTS_FILE = "/killosedraggfdxg/posts.txt"  # Файл, где хранится связь постов в канале с авторами
+USERS_FILE = "/data/users.txt"  # Файл, где будут храниться ID пользователей
+POSTS_FILE = "/data/posts.txt"  # Файл, где хранится связь постов в канале с авторами
 # =============================================
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode='HTML'))
 dp = Dispatcher()
